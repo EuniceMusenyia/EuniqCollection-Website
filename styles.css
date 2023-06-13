@@ -5,6 +5,9 @@
     list-style-type: none;
     color: antiquewhite;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', sans-serif;
@@ -56,6 +59,7 @@ h4 {
 nav {
     flex: 1;
     text-align: right;
+    /* position: fixed; */
 }
 
 nav ul {
